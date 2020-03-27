@@ -1,0 +1,23 @@
+.Border {
+    border: solid 1px red;
+    background-color: gray;
+    padding: 5px;
+    color: white;
+}
+
+.Previwer {
+    width: 90%;
+    /* align-items: center; */
+    border: black 0.5px dotted;
+   
+
+}
+
+.Previwer div{
+
+    display: flex;
+
+    flex-direction: column;
+
+
+} 
