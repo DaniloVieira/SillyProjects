@@ -1,4 +1,5 @@
 .Menu{
     background-color: lightgray;
     border: solid 1px black;
+    grid-area: menu;
 }

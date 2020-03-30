@@ -5,7 +5,7 @@ const menuPanel = (props) => {
 
     return (
         <div className={classes.Menu}>
-            <h1>menuPanel</h1>
+            <h1>MENU</h1>
         </div>
     );
 }

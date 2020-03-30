@@ -6,10 +6,10 @@
 }
 
 .Previwer {
-    width: 90%;
-    /* align-items: center; */
+    margin: 15px;
     border: black 0.5px dotted;
-   
+
+    grid-area: previwer;
 
 }
 
