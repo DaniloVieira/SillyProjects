@@ -13,3 +13,8 @@
         "menu previwer history"
         "menu footer history"
 }
+
+.Content > div{
+    margin: 8px;
+    padding: 8px;
+}

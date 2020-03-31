@@ -11,13 +11,21 @@
 
     grid-area: previwer;
 
+    display: grid;
+    grid-template-columns: 50px repeat(3, auto) 50px;
+    grid-template-rows: 30px  auto 30px;
+    grid-template-areas: 
+        "input1 control control control input2"
+        ". test-space test-space test-space ."
+        "input3 . copy-area . input4"
+
 }
 
-.Previwer div{
+/* .Previwer div{
 
     display: flex;
 
     flex-direction: column;
 
 
-} 
+}  */
