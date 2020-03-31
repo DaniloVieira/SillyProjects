@@ -8,8 +8,14 @@
     display: grid;
     grid-template-columns: [first-column] 150px [line2-column] auto [line3-column] 150px [end-column];
     grid-template-rows: [first-row] 100px [line2-row] 450px [line3-row] 50px [end-row];
+    /* justify-content: space-around; */
     grid-template-areas: 
         "menu header history"
         "menu previwer history"
         "menu footer history"
+}
+
+.Content > div{
+    margin: 8px;
+    padding: 8px;
 }

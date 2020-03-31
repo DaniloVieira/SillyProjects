@@ -11,13 +11,27 @@
 
     grid-area: previwer;
 
+    display: grid;
+    grid-template-columns: 100px repeat(3, auto) 100px;
+    grid-template-rows: repeat(3, 30px)  auto repeat(3, 30px);
+    grid-template-areas: 
+        ".      control    control    control    ."
+        "input1 control    control    control    input2"
+        "input1 test-space test-space test-space input2"
+        ".      test-space test-space test-space ."
+        "input3 test-space test-space test-space input4"
+        "input3 .          copy-area  .          input4"
+        ".      .          copy-area  .          ."
+
 }
 
-.Previwer div{
+.Previwer > div{
 
-    display: flex;
+    margin: 3px;
+    padding: 1px;
+} 
 
-    flex-direction: column;
+.Change:hover {
 
-
+    background-color: #ebeb05;
 } 
