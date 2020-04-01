@@ -8,18 +8,16 @@ import Layout from './hoc/layout/Layout';
 
 function App() {
   return (
-    <div style={{height: '90%'}} >
+    <div style={{display: 'flex',  justifyContent: 'space-between'}}>
+      <div></div>
       <Layout>
-      {/* <div style={{border: 'black solid 1px', backgroundColor: 'red', color: 'white'}}>space1</div> */}
         <Header/>
-      {/* <div style={{border: 'black solid 1px', backgroundColor: 'red', color: 'white'}}>space2</div> */}
         <MenuPanel/>
         <Previwer/>
         <HistoryPanel/>
-      {/* <div style={{border: 'black solid 1px', backgroundColor: 'red', color: 'white'}}>space3</div> */}
         <Footer/>      
-      {/* <div style={{border: 'black solid 1px', backgroundColor: 'red', color: 'white'}}>space4</div> */}
       </Layout>
+      <div></div>
     </div>
   );
 }

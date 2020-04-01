@@ -3,7 +3,7 @@ import React from 'react';
 
 const testSpace = (props) => {
     return (
-        <div className={props.classes} style={{ 'grid-area': 'test-space'}}>
+        <div className={props.classes} style={{ gridArea: 'test-space'}}>
             {props.children}
         </div>
     );

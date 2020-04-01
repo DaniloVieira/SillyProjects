@@ -1,0 +1,29 @@
+.InputValues{    
+    background-color: #f7755c;
+    border-radius: 7px / 2.5px;
+}
+
+.InputValues > div  {
+    display: flex ;
+    justify-content: space-between;
+    
+    
+}
+
+.InputContainer > input {
+    width : 35px;
+    margin-top: 7px;
+    /* margin: 2px, 5px, 0px, 5px;  */
+
+}
+
+.InputContainer > input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.InputContainer > input[type=number] {
+  -moz-appearance: textfield;
+}

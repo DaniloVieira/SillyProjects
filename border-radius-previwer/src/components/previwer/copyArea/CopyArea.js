@@ -3,7 +3,7 @@ import React from 'react';
 
 const copyArea = (props) => {
     return (
-        <div className={props.classes} style={{ 'grid-area': 'copy-area'}}>
+        <div className={props.classes} style={{ gridArea: 'copy-area'}}>
             {props.children}
         </div>
     );
