@@ -13,7 +13,7 @@
 
     display: grid;
     grid-template-columns: 100px repeat(3, auto) 100px;
-    grid-template-rows: repeat(3, 30px)  auto repeat(3, 30px);
+    grid-template-rows: repeat(3, 40px)  auto repeat(2, 40px) 90px;
     grid-template-areas: 
         ".      control    control    control    ."
         "input1 control    control    control    input2"

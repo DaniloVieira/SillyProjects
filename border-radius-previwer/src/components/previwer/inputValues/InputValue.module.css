@@ -1,0 +1,41 @@
+.InputValues{    
+    background-color: #f7755c;
+    border-radius: 7px / 2.5px;
+}
+
+.InputValues .InputContainer  {
+    display: flex ;
+    justify-content: space-between;
+}
+.InputValues .ButtonContainer  {
+  display: flex ;
+  justify-content: center;
+}
+
+.InputValues > div > button > svg {
+    vertical-align: middle;
+}
+
+.InputValues > div > button {
+    display: flex; 
+    justify-content: center;
+}
+
+.InputContainer > input {
+    width : 35px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    /* margin: 2px, 5px, 0px, 5px;  */
+}
+
+.InputContainer > input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.InputContainer > input[type=number] {
+  -moz-appearance: textfield;
+}
+

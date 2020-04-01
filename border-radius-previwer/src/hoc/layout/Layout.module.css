@@ -1,10 +1,12 @@
 .Content {
     border: double red 1px;
 
+    
     margin-top: 72px;
     margin-left: 35px;
     margin-right: 35px;
-    height: 90%;
+    height: 95%;
+    width: 80%;
     display: grid;
     grid-template-columns: [first-column] 150px [line2-column] auto [line3-column] 150px [end-column];
     grid-template-rows: [first-row] 100px [line2-row] 450px [line3-row] 50px [end-row];
