@@ -6,5 +6,19 @@
 
     grid-area: test-space;
 
-    display: flex; align-items: inherit
+    /* display: flex;  */
+    /* align-items: inherit */
+}
+
+.TestElement {
+    /* justify-self: center;
+    align-self: center; */
+    width: 80%;
+    height: 80%;
+    /* position: relative;
+    right: 0;
+    top: 0; */
+    border: blue 1px solid;
+    border-radius: 15%;
+    margin: 2%;
 }
