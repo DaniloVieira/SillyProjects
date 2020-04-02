@@ -5,7 +5,7 @@
 
 .InputValues .InputContainer  {
     display: flex ;
-    justify-content: space-between;
+    justify-content: center;
 }
 .InputValues .ButtonContainer  {
   display: flex ;

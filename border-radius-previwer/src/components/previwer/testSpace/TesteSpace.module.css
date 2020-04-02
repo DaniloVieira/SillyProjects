@@ -1,0 +1,10 @@
+.TestSpace {
+    border: solid 5px gray;
+    /* background-color: gray; */
+    padding: 5px;
+    color: white;
+
+    grid-area: test-space;
+
+    display: flex; align-items: inherit
+}

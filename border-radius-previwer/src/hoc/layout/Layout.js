@@ -6,9 +6,9 @@ const layout = props => {
 
     return(
         <Aux>
-            <main className={classes.Content}>
+            <div className={classes.Content}>
                 {props.children}
-            </main>
+            </div>
         </Aux>
     );
 }

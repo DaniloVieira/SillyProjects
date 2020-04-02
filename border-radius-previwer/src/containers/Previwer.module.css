@@ -6,11 +6,11 @@
 }
 
 .Previwer {
+    /* border: black 0.5px dotted; */
+    
     margin: 15px;
-    border: black 0.5px dotted;
-
     grid-area: previwer;
-
+    height: 650px;
     display: grid;
     grid-template-columns: 100px repeat(3, auto) 100px;
     grid-template-rows: repeat(3, 40px)  auto repeat(2, 40px) 90px;
